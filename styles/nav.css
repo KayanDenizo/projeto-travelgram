@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 0;
+    /* Porque os navegadores vem por padrão */
+    padding-block: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    padding-block: 8px;
+}
+
+nav ul li:last-child img {
+    /* Pegando apenas o ultimo filho da LI */
+
+    width: 40px;
+    height: 40px;
+    /* object-fit: cover;*/
+    /* Object-fit apenas para imagens que nao foram escolhidas pelo designer da rocket */
+}
+
