@@ -20,8 +20,8 @@
     --text-lg: bold 32px/125% var(--font-family);
     /* O 125% é o line height porque eu ja fiz tudo em uma linha so para usar o short hand da font */
     --text: 16px/150% var(--font-family);
-    --text-md: 14px/175% var(--font-family);
-    --text-sm: 12px/175% var(--font-family);
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
 }
 
 body {
