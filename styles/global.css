@@ -14,9 +14,18 @@
     /* Text Fonts */
     --text-color-primary: #313131;
     --text-color-secondary: #6C6C6C;
+
+    /* Fonts */
+    --font-family: "Poppins", sans-serif;
+    --text-lg: bold 32px/125% var(--font-family);
+    /* O 125% é o line height porque eu ja fiz tudo em uma linha so para usar o short hand da font */
+    --text: 16px/150% var(--font-family) ;
+    --text-md: 14px/175% var(--font-family);
+    --text-sm: 12px/175% var(--font-family);
 }
 
 body {
+    font: var(--text);
     color: var(--text-color-secondary);
     background-color: var(--bg-color);
 }
